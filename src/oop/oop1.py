@@ -18,7 +18,7 @@
 #
 # Put a comment noting which class is the base class
 
-#Base class
+#Base class - Vehicle
 
 class Vehicle:
     def __init__(self):
@@ -34,7 +34,7 @@ class GroundVehicle(Vehicle):
     def __init__(self):
         pass
 
-#Grandchildren - FlightVehicle
+#Grandchildren Branch of - FlightVehicle
 
 class Starship(FlightVehicle):
     def __init__(self):
@@ -44,7 +44,7 @@ class Airplane(FlightVehicle):
     def __init__(self):
         pass
 
-# Grandchildren - GroundVehicle
+# Grandchildren Branch of - GroundVehicle
 
 class Car(GroundVehicle):
     def __init__(self):
